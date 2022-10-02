@@ -72,6 +72,7 @@ function createRandomCircle() {
     // circle.style.height = `40px`
     circle.style.top = `${x}px`
     circle.style.left = `${y}px`
+        circle.style.backgroundSize = `${size}px`
     // circle.style.background = getRandomColor()
 
     board.append(circle)
